@@ -1,0 +1,75 @@
+body {
+  font-family: "Courgette", cursive;
+}
+
+.invidiv {
+  height: 100vh;
+}
+.vertical-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.onhover {
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+.btn-editar {
+  float: left;
+}
+
+.btn-volver {
+  float: right;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.add-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+img {
+  width: 100%;
+  height: 15vw;
+  object-fit: cover;
+}
+
+.card-custom {
+  display: block;
+  width: 100%;
+}
+.maxx {
+  max-width: 70%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contenedor {
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.add-style {
+  color: black;
+  &:hover {
+    text-decoration: none;
+    color: red;
+  }
+}
+
+.register-link {
+  cursor: pointer;
+  font-weight: bold;
+  &:hover {
+    color: red;
+  }
+}
